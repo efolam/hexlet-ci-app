@@ -16,13 +16,13 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^25.3.0",
     "jest": "^27.4.5",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.0.8",
     "supertest": "^6.1.6"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.0.2",
     "@strapi/plugin-users-permissions": "4.0.2",
-    "@strapi/strapi": "4.0.2"
+    "@strapi/strapi": "^4.1.12"
   },
   "author": {
     "name": "A Strapi developer"

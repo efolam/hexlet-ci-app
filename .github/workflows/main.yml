@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: e7ce44ea-d9ec-4338-a6be-4a3e323ef0fb
       - uses: actions/setup-node@v3
         with:
           node-version: 15
